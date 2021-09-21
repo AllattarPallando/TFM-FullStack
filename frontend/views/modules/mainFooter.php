@@ -1,14 +1,13 @@
 <!------------------------------
-             HEADER
+            FOOTER
 -------------------------------->
-<div class="navMenu-1">
+<div class="footer">
 
     <!-- LOGO -->
     <div id="logo">
         <a href="../index.php">
-            <img src="img/LOGOText.png" class="logoImg" alt="Logotipo del sitio">
+            <img src="img/Logo-Morado.png" class="logoImg" alt="Logotipo del sitio">
         </a>
     </div>
 
 </div>
-

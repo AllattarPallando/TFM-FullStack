@@ -26,14 +26,14 @@
         </div>
 
         <div class="infoHover">
-            <a href="#" class="faqIcon">
+            <a href="views/faq.php" class="faqIcon">
                 <i class="fas fa-comments"></i>
                 <div class="alert alert-light faqAlert" role="alert">
                     FAQ
                 </div>
             </a>
 
-            <a href="#" class="aboutUsIcon">
+            <a href="views/aboutUs.php" class="aboutUsIcon">
                 <i class="fas fa-users"></i>
                 <div class="alert alert-light aboutUsAlert" role="alert">
                     Sobre nosotros
