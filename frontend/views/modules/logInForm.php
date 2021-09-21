@@ -6,7 +6,7 @@
     <div class="userInput">
         <h3 class="userLabel">Usuario:</h3>
         <i class="fas fa-at"></i>
-        <input type="text" placeholder="Introduzca su email"/>
+        <input type="email" placeholder="Introduzca su email"/>
     </div>
     <div class="passwordInput">
         <h3 class="passwordLabel">Clave:</h3>

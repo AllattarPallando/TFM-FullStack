@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Norwester", sans-serif;
+}
+
+#signIn {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#signIn .signInIcon {
+    width: 95px;
+    height: 95px;
+    border: 5.5px solid #5A91C3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    color: #5A91C3;
+    margin-bottom: 20px;
+}
+
+#signIn h3 {
+    color: #5A91C3;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+#signIn .asterisk {
+    color: red;
+    font-weight: 900;
+}
+
+#signIn input {
+    width: 240px;
+    height: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    border: 2px solid #5A91C3;
+    border-top: none;
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-bottom: 5px;
+}
+
+#signIn input:focus {
+    color: #222222;
+    padding-left: 35px;
+    outline: none;
+}
+
+#signIn input:focus::placeholder {
+    color: transparent;
+}
+
+#signIn input::placeholder {
+    color: #222222;
+    padding-left: 35px;
+}
+
+.userNameInput,
+.userEmailInput,
+.passwordInput {
+    position: relative;
+}
+
+#signIn .userInput {
+    margin-bottom: 20px;
+}
+
+#signIn .userNameInput i,
+#signIn .userEmailInput i,
+#signIn .passwordInput i {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #5A91C3;
+}
+
+#signIn .forgotPasswordLink {
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+
+#signIn .forgotPasswordLink a {
+    color: #222222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+#signIn .forgotPasswordLink i {
+    margin-right: 5px;
+}
+
+#signIn button {
+    background-color: transparent;
+    border: 3px solid #5A91C3;
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: #5A91C3;
+}
+
+#signIn button:hover,
+#signIn button:active {
+    background-color: #5A91C3;
+    border: 3px solid #5A91C3;
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+#signIn .dataProtectionCheckbox {
+    display: flex;
+    width: 240px;
+    justify-content: top;
+    margin: 30px 0;
+}
+
+#signIn .dataProtectionCheckbox input {
+    flex-basis: 20%;
+    margin-top: 4px;
+}
+
+#signIn .dataProtectionCheckbox label {
+    flex-basis: 80%;
+    margin-left: 10px;
+}
+
+#logo {
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
