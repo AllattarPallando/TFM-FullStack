@@ -27,12 +27,75 @@
     <script src="https://kit.fontawesome.com/81bf84ccb5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
 
 </head>
 
 <body>
     <?php
         include "modules/header.php";
+    ?>
+
+    <div class="aboutUsContent">
+        <img src="img/FAQImg.png" alt="Hero image">
+
+        <h1>Sobre nosotros</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi vero ullam possimus? 
+            Fugiat quia excepturi et, quasi dolorem recusandae molestiae magni debitis temporibus odio, 
+            ipsa exercitationem, ex quibusdam aperiam. Lorem, ipsum dolor sit amet consectetur adipisicing 
+            elit. Culpa iusto, accusamus quasi doloremque dolores nam, nemo fugit unde sequi aliquid, quibusdam 
+            facere vitae? Eligendi reiciendis pariatur veniam asperiores molestiae dolorum? Lorem ipsum dolor, 
+            sit amet consectetur adipisicing elit. Magnam perferendis nostrum quos veritatis, sit expedita hic 
+            libero ipsam, neque beatae rem ratione reprehenderit, culpa alias id odit dolorem est! Soluta. Lorem 
+            ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt veniam, vitae perspiciatis incidunt sed quidem. 
+            Quia, accusamus, sed corrupti aut culpa ut ad facilis quos tempore voluptates facere quae.
+        </p>
+
+        <div class="personInfo">
+            <img src="img/NosotrosImg.png" alt="Imagen de la persona">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam inventore cumque error 
+                necessitatibus ab recusandae, assumenda, iusto ratione explicabo natus animi? Eum ab saepe 
+                voluptates odio. Ducimus, provident quis? Recusandae?
+            </p>
+        </div>
+
+        <div class="personInfo">
+            <img src="img/NosotrosImg.png" alt="Imagen de la persona">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam inventore cumque error 
+                necessitatibus ab recusandae, assumenda, iusto ratione explicabo natus animi? Eum ab saepe 
+                voluptates odio. Ducimus, provident quis? Recusandae?
+            </p>
+        </div>
+
+        <div class="personInfo">
+            <img src="img/NosotrosImg.png" alt="Imagen de la persona">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam inventore cumque error 
+                necessitatibus ab recusandae, assumenda, iusto ratione explicabo natus animi? Eum ab saepe 
+                voluptates odio. Ducimus, provident quis? Recusandae?
+            </p>
+        </div>
+
+        <div class="personInfo">
+            <img src="img/NosotrosImg.png" alt="Imagen de la persona">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam inventore cumque error 
+                necessitatibus ab recusandae, assumenda, iusto ratione explicabo natus animi? Eum ab saepe 
+                voluptates odio. Ducimus, provident quis? Recusandae?
+            </p>
+        </div>
+        
+    </div>
+
+    <?php
         include "modules/footer.php";
     ?>
 

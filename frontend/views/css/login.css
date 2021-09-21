@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Norwester", sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+#login {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login .loginIcon {
+    width: 95px;
+    height: 95px;
+    border: 5.5px solid #C7A7FB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    color: #C7A7FB;
+    margin-bottom: 20px;
+}
+
+#login h3 {
+    color: #C7A7FB;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+#login input {
+    width: 240px;
+    height: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    border: 2px solid #C7A7FB;
+    border-top: none;
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-bottom: 5px;
+}
+
+#login input:focus {
+    color: #222222;
+    padding-left: 35px;
+    outline: none;
+}
+
+#login input:focus::placeholder {
+    color: transparent;
+}
+
+#login input::placeholder {
+    color: #222222;
+    padding-left: 35px;
+}
+
+.userInput,
+.passwordInput,
+.forgotPasswordLink {
+    position: relative;
+}
+
+#login .userInput {
+    margin-bottom: 20px;
+}
+
+#login .userInput i,
+#login .passwordInput i {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #C7A7FB;
+}
+
+#login .forgotPasswordLink {
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+
+#login .forgotPasswordLink a {
+    color: #222222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+#login .forgotPasswordLink i {
+    margin-right: 5px;
+}
+
+#login button {
+    background-color: transparent;
+    border: 3px solid #C7A7FB;
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: #C7A7FB;
+}
+
+#login button:hover,
+#login button:active {
+    background-color: #C7A7FB;
+    border: 3px solid #C7A7FB;
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+#logo {
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

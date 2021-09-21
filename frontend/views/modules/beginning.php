@@ -1,5 +1,5 @@
 <div id="login">
-    <a href="#" class="loginLink">
+    <a href="views/login.php" class="loginLink">
         <div class="loginIcon">
             <i class="fas fa-user"></i>
         </div>
@@ -9,7 +9,7 @@
     </a>
 </div>
 <div id="signin">
-    <a href="#" class="signinLink">
+    <a href="views/signIn.php" class="signinLink">
         <div class="signinIcon">
             <i class="fas fa-user-plus"></i>
         </div>
