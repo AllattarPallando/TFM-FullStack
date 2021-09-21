@@ -1,0 +1,162 @@
+#login,
+#signin {
+    background-color: #C7A7FB;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signin {
+    background-color: #5A91C3;
+}
+
+.loginLink,
+.signinLink,
+.loginLink:active,
+.signinLink:active,
+.loginLink:hover,
+.signinLink:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.loginIcon,
+.signinIcon {
+    width: 60px;
+    height: 60px;
+    border: 5.5px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+}
+
+.loginIcon i {
+    font-size: 2.2em;
+}
+
+.signinIcon i {
+    font-size: 1.8em;
+}
+
+.loginText,
+.signinText {
+    width: 180px;
+    height: 60px;
+    border: 5.5px solid #FFFFFF;
+    border-left: none;
+    border-radius: 45px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Norwester', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.signinText {
+    width: 241px;
+}
+
+.loginText h2 {
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.signinText h2 {
+    margin-right: 25px;
+    margin-bottom: 0;
+}
+
+#info {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.infoPanel {
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+
+.infoIcon {
+    width: 36px;
+    height: 36px;
+    color: #FFFFFF;
+    font-size: 2.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    z-index: 2;
+}
+
+.infoHover {
+    display: none;
+    width: 75px;
+    height: 75px;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    z-index: 0;
+}
+
+.faqIcon,
+.aboutUsIcon,
+.faqIcon:active,
+.faqIcon:hover,
+.aboutUsIcon:hover,
+.aboutUsIcon:active {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    border: 2.5px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-10deg);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.faqIcon {
+    margin-left: 15px;
+}
+
+.faqAlert,
+.aboutUsAlert {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    padding: 2.5px 5px;
+    margin: 0;
+    margin-right: 80px;
+}
+
+.aboutUsAlert {
+    width: 95px;
+    margin-right: 140px;
+}
+
+#logo {
+    position: absolute;
+    top: 45%;
+    left: 42.5%;
+}
