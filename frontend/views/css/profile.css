@@ -1,0 +1,105 @@
+body {
+    height: 100vH;
+    margin-top: 54px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+#profile {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile .userImg {
+    width: 95px;
+    height: 95px;
+    border: 5.5px solid #C8C8C8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    color: #C8C8C8;
+    margin-bottom: 15px;
+}
+
+#profile .profileMenu {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile .profileMenu .travelsPanel,
+#profile .profileMenu .notesPanel,
+#profile .profileMenu .expensesPanel,
+#profile .profileMenu .calendarPanel,
+#profile .profileMenu .mapPanel,
+#profile .profileMenu .settingsPanel {
+    width: 180px;
+    height: 120px;
+    border: 1px solid #222222;
+    border-bottom: none;
+    border-right: none;
+}
+
+#profile .profileMenu a {
+    width: 180px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+#profile .profileMenu .travelsIcon,
+#profile .profileMenu .notesIcon,
+#profile .profileMenu .expensesIcon,
+#profile .profileMenu .calendarIcon,
+#profile .profileMenu .mapIcon,
+#profile .profileMenu .settingsIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #C7A7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile .profileMenu .settingsIcon {
+    position: relative;
+}
+
+#profile .profileMenu .travelsText,
+#profile .profileMenu .notesText,
+#profile .profileMenu .expensesText,
+#profile .profileMenu .calendarText,
+#profile .profileMenu .mapText,
+#profile .profileMenu .settingsText {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 7px;
+}
+
+#profile #user {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+#profile #cog {
+    font-size: .6em;
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+}

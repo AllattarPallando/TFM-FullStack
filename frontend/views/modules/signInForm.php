@@ -38,5 +38,5 @@
 </div>
 
 <div id="logo">
-    <a href="../index.php"><img src="img/Logo-Azul.png" alt="Logo del sitio"></a>
+    <a href="profile.php"><img src="img/Logo-Azul.png" alt="Logo del sitio"></a>
 </div>

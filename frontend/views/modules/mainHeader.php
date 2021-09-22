@@ -5,7 +5,7 @@
 
     <!-- LOGO -->
     <div id="logo">
-        <a href="../index.php">
+        <a href="profile.php">
             <img src="img/LOGOText.png" class="logoImg" alt="Logotipo del sitio">
         </a>
     </div>
