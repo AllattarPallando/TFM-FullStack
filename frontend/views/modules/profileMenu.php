@@ -6,7 +6,7 @@
 
     <div class="profileMenu">
         <div class="travelsPanel">
-            <a href="#" class="travelsLink">
+            <a href="travels.php" class="travelsLink">
                 <div class="travelsIcon">
                     <i class="fas fa-route"></i>
                 </div>

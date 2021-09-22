@@ -1,0 +1,109 @@
+body {
+    margin-top: 59px;
+}
+
+#travelsTitle {
+    font-family: "Norwester", sans-serif;
+    font-size: 72px;
+    color: #C7A7FB;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+hr {
+    height: 2px;
+    color: #C7A7FB;
+    margin-top: 0;
+}
+
+.travel {
+    font-family: "Montserrat", sans-serif;
+    width: 340px;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9E9E9;
+    margin: 20px auto;
+    padding-right: 5px;
+}
+
+.travelImg {
+    width: 33.3333%;
+}
+
+.travelInfoPanel {
+    flex-basis: 66.6666%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 0;
+    width: 188px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travelName,
+.travelDestination {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.travelDestination {
+    color: #5A91C3;
+}
+
+.travelLinks {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.links-2 {
+    height: 60px;
+    padding-left: 8px;
+    flex-basis: 64%;
+}
+
+.travelLinks a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.links-1 a:first-child,
+.links-2 a:first-child {
+    line-height: 2.3em;
+}
+
+.links-2 a:last-child {
+    margin-left: 4px;
+}
+
+.links-2 a:last-child i {
+    margin-right: 4px;
+}
+
+.newTravelLink {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #C7A7FB;
+    color: #FFFFFF;
+    font-size: 64px;
+    position: fixed;
+    bottom: 95px;
+    right: 10px;
+}
+
+.newTravelLink a {
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
