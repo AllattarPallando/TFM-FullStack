@@ -5,7 +5,7 @@
 
     <!-- INICIO DE SESIÓN -->
     <div id="login">
-        <a href="#" class="loginLink">
+        <a href="login.php" class="loginLink">
             <div class="loginIcon">
                 <i class="fas fa-user"></i>
             </div>
@@ -24,7 +24,7 @@
 
     <!-- REGISTRO -->
     <div id="signin">
-        <a href="#" class="signinLink">
+        <a href="signIn.php" class="signinLink">
             <div class="signinIcon">
                 <i class="fas fa-user-plus"></i>
             </div>
