@@ -1,6 +1,12 @@
 body {
-    margin-top: 59px;
+    margin-top: 54px;
+    overflow-y: scroll;
 }
+
+
+/*********************************
+           PÁGINA VIAJES
+**********************************/
 
 #travelsTitle {
     font-family: "Norwester", sans-serif;
@@ -10,7 +16,7 @@ body {
     margin-bottom: 0;
 }
 
-hr {
+#hrH1 {
     height: 2px;
     color: #C7A7FB;
     margin-top: 0;
@@ -53,6 +59,7 @@ hr {
 }
 
 .travelDestination {
+    font-size: 14px;
     color: #5A91C3;
 }
 
@@ -106,4 +113,351 @@ hr {
     padding-bottom: 14px;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+
+/*********************************
+           NUEVO VIAJE
+**********************************/
+
+.header {
+    width: 100%;
+    height: 74px;
+    background-color: #C7A7FB;
+    font-family: "Norwester", sans-serif;
+    color: #FFFFFF;
+    margin-top: -54px;
+}
+
+.header h1 {
+    font-size: 58px;
+    text-align: center;
+}
+
+#newTravelForm,
+#newStopForm,
+#newSpendingForm {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.travelImagePanel,
+.stopImagePanel,
+.spendingImagePanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newTravelForm h3,
+#newStopForm h3,
+#newSpendingForm h3 {
+    font-family: "Norwester", sans-serif;
+    color: #C7A7FB;
+    font-size: 1.2em;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+#newTravelForm .asterisk,
+#newStopForm .asterisk,
+#newSpendingForm .asterisk {
+    color: red;
+    font-weight: 900;
+}
+
+#newTravelForm input[type=text],
+#newTravelForm input[type=number],
+#newTravelForm input[type=date],
+#newTravelForm select,
+#newSpendingForm input[type=text],
+#newSpendingForm input[type=number],
+#newStopForm input[type=date],
+#newStopForm select {
+    width: 240px;
+    height: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    border: 2px solid #C7A7FB;
+    border-top: none;
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-bottom: 5px;
+}
+
+#newTravelForm input[type=number],
+#newTravelForm select,
+#newStopForm select,
+#newSpendingForm input[type=number] {
+    padding-left: 35px;
+}
+
+#newTravelForm input[type=text]:focus,
+#newTravelForm input[type=number]:focus,
+#newTravelForm select:focus,
+#newStopForm select:focus,
+#newSpendingForm input[type=text]:focus,
+#newSpendingForm input[type=number]:focus {
+    color: #222222;
+    padding-left: 35px;
+    outline: none;
+}
+
+#newTravelForm input[type=date]:focus,
+#newStopForm input[type=date]:focus {
+    outline: none;
+}
+
+#newTravelForm input[type=text]:focus::placeholder,
+#newTravelForm input[type=date]:focus::placeholder,
+#newStopForm input[type=date]:focus::placeholder,
+#newSpendingForm input[type=text]:focus::placeholder {
+    color: transparent;
+}
+
+#newTravelForm input[type=text]::placeholder,
+#newTravelForm input[type=date]::placeholder,
+#newTravelForm .inputSpinner input[type=number]::placeholder,
+#newStopForm input[type=date]::placeholder,
+#newSpendingForm input[type=text]::placeholder,
+#newSpendingForm input[type=number]::placeholder {
+    color: #222222;
+    padding-left: 35px;
+}
+
+#newTravelForm input[type=date],
+#newStopForm input[type=date] {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#newTravelForm .travelNameInput,
+#newTravelForm .travelOrigin,
+#newTravelForm .travelDestinationForm,
+#newTravelForm .startDate,
+#newTravelForm .endDate,
+#newTravelForm .travelers,
+#newStopForm .stopOrigin,
+#newSpendingForm .spendingNameInput,
+#newSpendingForm .amount {
+    position: relative;
+}
+
+#newTravelForm .travelNameInput i,
+#newTravelForm .travelOrigin i,
+#newTravelForm .travelDestinationForm i,
+#newTravelForm .startDate i,
+#newTravelForm .endDate i,
+#newTravelForm .travelers i,
+#newStopForm .stopOrigin i,
+#newSpendingForm .spendingNameInput i,
+#newSpendingForm .amount i {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #C7A7FB;
+}
+
+#newTravelForm .travelers .inputSpinner button {
+    width: 21px;
+    height: 13.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+#newTravelForm .travelers .inputSpinner button:focus {
+    outline: none;
+}
+
+#newTravelForm .travelers .inputSpinner .plus {
+    top: 29px;
+}
+
+#newTravelForm .travelers .inputSpinner .less {
+    bottom: 5px;
+}
+
+#newTravelForm .travelers .inputSpinner .less i {
+    top: -6.5px;
+}
+
+#newTravelForm .travelers .inputSpinner button i {
+    font-size: 1.5em;
+    position: absolute;
+    top: -5px;
+    left: 4px;
+    color: #222222;
+}
+
+#newTravelForm .travelStops .travelStopsPanel,
+#newTravelForm .travelBudget .travelExpensesPanel {
+    width: 240px;
+    height: 250px;
+    background-color: #F8F8F8;
+    border: 3px solid #C8C8C8;
+    border-radius: 11px;
+    padding: 10px;
+    position: relative;
+}
+
+#newTravelForm .travelStops .travelStopsPanel .travelStop,
+#newTravelForm .travelBudget .travelExpensesPanel .travelSpending {
+    width: 100%;
+    height: 80px;
+    background-color: #E5E5E5;
+    border: 2px solid #C8C8C8;
+    border-radius: 6px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#newTravelForm .travelBudget .travelExpensesPanel .travelSpending {
+    justify-content: space-between;
+    height: 40px;
+    padding-left: 20px;
+}
+
+#newTravelForm .travelStops .travelStopsPanel .travelStop .travelStopName,
+#newTravelForm .travelStops .travelStopsPanel .travelStop .travelStopStart,
+#newTravelForm .travelStops .travelStopsPanel .travelStop .travelStopEnd,
+#newTravelForm .travelBudget .travelExpensesPanel .travelSpending .travelSpendingName,
+#newTravelForm .travelBudget .travelExpensesPanel .travelSpending .travelSpendingAmount {
+    font-family: "Montserrat", sans-serif;
+    color: #222222;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 4px;
+    margin-right: 20px;
+}
+
+#newTravelForm .travelStops .travelStopsPanel .travelStop .travelStopName {
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#newTravelForm .travelStops .travelStopsPanel .travelStopPanel,
+#newTravelForm .travelBudget .travelExpensesPanel .travelExpenses {
+    width: 100%;
+    height: 145px;
+    overflow: scroll;
+}
+
+#newTravelForm .travelStops .travelStopsPanel .travelStopPanel {
+    height: 190px;
+}
+
+#newTravelForm .travelStops .travelStopsPanel button,
+#newTravelForm .travelBudget .travelExpensesPanel button {
+    width: 100%;
+    height: 30px;
+    background-color: #E5E5E5;
+    border: 2px solid #C8C8C8;
+    color: #222222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    outline: none;
+}
+
+#newTravelForm .travelBudget .travelExpensesPanel button {
+    margin-bottom: 10px;
+}
+
+#newTravelForm .travelStops .travelStopsPanel .newTravelStop a,
+#newTravelForm .travelBudget .travelExpensesPanel .newTravelSpending a {
+    text-decoration: none;
+    color: #222222;
+}
+
+#newTravelForm .travelStops .travelStopsPanel button span,
+#newTravelForm .travelBudget .travelExpensesPanel button span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#newTravelForm .travelBudget .travelExpensesPanel .total {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid #C8C8C8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+}
+
+#newTravelForm .travelBudget .travelExpensesPanel .total .travelBudgetName,
+#newTravelForm .travelBudget .travelExpensesPanel .total .travelBudgetAmount {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #222222;
+    margin: 0;
+}
+
+#newTravelForm #asterisk {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.asteriskInfo h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #222222;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#newTravelForm .travelFormButton,
+#newStopForm .stopFormButton,
+#newSpendingForm .spendingFormButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 110px;
+}
+
+#newTravelForm #newTravelButton,
+#newStopForm #newStopButton,
+#newSpendingForm #newSpendingButton {
+    background-color: transparent;
+    border: 3px solid #C7A7FB;
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: #C7A7FB;
+}
+
+#newTravelForm #newTravelButton:hover,
+#newTravelForm #newTravelButton:active,
+#newStopForm #newStopButton:hover,
+#newStopForm #newStopButton:active,
+#newSpendingForm #newSpendingButton:hover,
+#newSpendingForm #newSpendingButton:active {
+    background-color: #C7A7FB;
+    border: 3px solid #C7A7FB;
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+#newTravelForm #newTravel .travelFormButton #newTravelButton #newTravelLink,
+#newStopForm #newStop .stopFormButton #newStopButton #newStopLink,
+#newSpendingForm #newSpending .spendingFormButton #newSpendingButton #newSpendingLink {
+    text-decoration: none;
+    color: #C7A7FB !important;
 }

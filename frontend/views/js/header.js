@@ -16,12 +16,14 @@ $(document).ready(function() {
                 marginLeft: boxWidth
             });
             $("#dropDownMenu").css("display", "none");
+            $(".newTravelLink").css("display", "block");
         } else {
             $("#dropDownMenu").animate({
                 width: boxWidth,
                 marginLeft: 0
             });
             $("#dropDownMenu").css("display", "block");
+            $(".newTravelLink").css("display", "none");
         }
     });
 });

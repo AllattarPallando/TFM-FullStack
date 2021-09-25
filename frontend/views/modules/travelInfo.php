@@ -1,5 +1,5 @@
 <div class="travel">
-    <img src="img/TravelImg.png" alt="" class="travelImg">
+    <img src="img/TravelImg.png" alt="Imagen del viaje" class="travelImg">
     <div class="travelInfoPanel">
         <h2 class="travelName">Nombre</h2>
         <h3 class="travelDestination">Destino</h3>
