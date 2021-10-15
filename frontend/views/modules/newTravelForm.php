@@ -1,7 +1,9 @@
 <div id="newTravelForm">
-    <form id="newTravel">
+    <form id="newTravel" action="../bd/newTravelAction.php" method="POST" enctype="multipart/form-data" target="_blank">
         <div class="travelImagePanel">
-            <input type="image" src="img/newImage.png" alt="Añadir imagen de usuario" class="tarvelImg">
+            <label class="travelImgSelector">
+                <input type="file" class="tarvelImg" name="travelImg">
+            </label>
         </div>
 
         <div class="travelNameInput">

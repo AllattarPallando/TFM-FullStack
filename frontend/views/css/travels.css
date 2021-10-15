@@ -38,6 +38,10 @@ body {
     width: 33.3333%;
 }
 
+input[type="file"] {
+    display: none;
+}
+
 .travelInfoPanel {
     flex-basis: 66.6666%;
     padding: 5px;

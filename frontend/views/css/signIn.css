@@ -49,11 +49,11 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     padding-bottom: 5px;
+    padding-left: 35px;
 }
 
 #signIn input:focus {
     color: #222222;
-    padding-left: 35px;
     outline: none;
 }
 
@@ -63,7 +63,6 @@
 
 #signIn input::placeholder {
     color: #222222;
-    padding-left: 35px;
 }
 
 .userNameInput,
